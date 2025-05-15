@@ -43,5 +43,5 @@ As **Project Leader and AI Lead**, I managed the end-to-end project lifecycle:
 
 ---
 
-This project reflects my capability to **merge AI, web development, and sustainable technologies**, and aligns with my ambitions to contribute to cutting-edge AI projects at **MBZUAI**.
+This project reflects my capability to **merge AI, web development, and sustainable technologies**.
 
