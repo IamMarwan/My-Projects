@@ -1,0 +1,182 @@
+/* CSS code for mobile responsiveness */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    flex: 1;
+    z-index: 999;
+}
+.hamburger span {
+    width: 2rem;
+    height: 0.25rem;
+    background-color: #eee;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+.hamburger.open span:nth-child(1) {
+    transform: rotate(45deg) translateY(7px);
+}
+.hamburger.open span:nth-child(2) {
+    opacity: 0;
+}
+.hamburger.open span:nth-child(3) {
+    transform: rotate(-45deg) translateY(-7px);
+}
+#mobile-menu {
+    display: flex;
+}
+@media screen and (min-width: 768px) {
+    .login {
+        flex: 1;
+        text-align: center;
+   }
+    .logo {
+        flex: 1;
+   }
+    .logo img {
+        max-height: 65px 
+   }
+    .menu {
+        flex: 2;
+   }
+}
+@media screen and (max-width: 768px) {
+    .hamburger {
+        display: flex;
+   }
+    #mobile-menu {
+        display: none;
+   }
+    .hidden {
+        display: block;
+   }
+    #mobile-menu.responsive {
+        position: absolute;
+        background-color: #0f0f0f;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        top: 0;
+        height: 100vh;
+   }
+    #mobile-menu.responsive .menu-list {
+        margin: 10px 0;
+   }
+    .logo img {
+        max-height: 70px;
+   }
+    .login a {
+        display: none;
+   }
+    .footer-container {
+        padding: 10px 50px;
+   }
+    .hero-content h1 {
+        font-size: 3rem;
+   }
+    .student-card, .ar-card {
+        border-radius: 0;
+   }
+    .logo {
+        flex: 4;
+   }
+}
+@media screen and (max-width: 525px) {
+    .hero-content p {
+        font-size: 1.2rem;
+        text-align: justify;
+        padding: 7px;
+   }
+    .apply-button {
+        padding: 15px 15px;
+        font-size: 1rem;
+   }
+    .university-slideshow {
+        margin: 20px auto;
+   }
+    .services-content h1 {
+        font-size: 2rem 
+   }
+    .card i {
+        font-size: 2rem;
+   }
+    .card p {
+        font-size: 1rem;
+   }
+    .card h3 {
+        font-size: 1.15rem;
+   }
+    .why-section h2 {
+        font-size: 1.8rem;
+   }
+    .why-section p {
+        font-size: 1.1rem;
+        word-spacing: 4px;
+        letter-spacing: 0px;
+        text-align: justify;
+        padding: 7px;
+   }
+    .iti-mobile .iti--container {
+        right: 0;
+   }
+    .swiper-container-why .swiper-slide img {
+        width: 100%;
+   }
+    .register-content h1 {
+        font-size: 2rem 
+   }
+    .register-content p {
+        font-size: 1.2rem;
+   }
+    .student-card-content {
+        padding: 10px 0;
+   }
+    .card-student {
+        margin-top: 1em;
+        width: 360px;
+   }
+    .why-turkey {
+        padding: 50px 1px !important;
+   }
+    .last-section h1 {
+        font-size: 2rem;
+   }
+    #accordion {
+        padding: 0 !important;
+   }
+   .about-first{
+        margin-bottom: 25px;
+        height: 85vh;
+   }
+    .about-text {
+        padding: 1rem;
+   }
+   .about-text h1{
+        font-size: 2.3rem;
+   }
+   .about-text p{
+        font-size: 1rem;
+        text-align: justify;
+        padding: 15px;
+        letter-spacing: 1px;
+   }
+    .footer-container {
+        flex-direction: column;
+        padding: 0;
+   }
+}
+@media screen and (max-width: 750px), screen and (max-height: 795px) {
+    .hero-content h1 {
+        font-size: 3rem;
+   }
+}
+@media screen and (max-height: 795px) {
+    .hero-content h1 {
+        font-size: 2.5rem;
+   }
+}
