@@ -1,6 +1,6 @@
 # Rock-Paper-Scissors AI with Real-Time Gesture Recognition
 
-This project implements a real-time Rock-Paper-Scissors game using deep learning and computer vision. It leverages a Convolutional Neural Network (CNN) trained on hand gesture images to recognize and classify player moves in real time using a webcam.
+This project implements a real time Rock-Paper-Scissors game using deep learning and computer vision. It leverages a Convolutional Neural Network (CNN) trained on hand gesture images to recognize and classify player moves in real time using a webcam.
 
 ---
 
@@ -59,8 +59,4 @@ This project implements a real-time Rock-Paper-Scissors game using deep learning
 
 ### 📘 About This Project
 
-This project was developed during a **Data Science and AI course** at **Khalifa University**, as part of the **Tumooh National Service Program**. It demonstrates my applied skills in machine learning, computer vision, and interactive AI systems while actively serving in the national service. The goal was to integrate AI into a real-time environment with full pipeline ownership — from dataset to deployment.
-
----
-
-📌 Ideal for undergraduate AI portfolios, MBZUAI applications, or real-world AI deployment demonstrations.
+This project was developed during a **Data Science and AI course** at **Khalifa University**, as part of the **Tumooh National Service Program**. It demonstrates my applied skills in machine learning, computer vision, and interactive AI systems while actively serving in the national service. The goal was to integrate AI into a real time environment with full pipeline ownership from dataset to deployment.
